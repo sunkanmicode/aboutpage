@@ -13,6 +13,6 @@ about.addEventListener('click', (e) =>{
       content.classList.remove('active');
     })
     const ele = document.getElementById(id)
-    ele.classList.add(active)
+    ele.classList.add('active')
   }
 })
